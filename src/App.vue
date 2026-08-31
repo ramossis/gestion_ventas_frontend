@@ -90,7 +90,7 @@
                 <circle cx="17" cy="17" r="3"></circle>
                 <circle cx="7" cy="7" r="3"></circle>
               </svg>
-              <span class="is-drawer-close:hidden">Configuracion</span>
+              <span class="is-drawer-close:hidden">Configuracionssss</span>
             </button>
           </li>
         </ul>
