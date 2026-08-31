@@ -29,7 +29,7 @@
             <path d="M14 10l2 2l-2 2"></path>
           </svg>
         </label>
-        <div class="px-4">Gestion de Ventas POS</div>
+        <div class="px-4">Sistema de ventas</div>
       </nav>
       <!-- Page content here -->
       <div class="p-4">Page Content</div>
