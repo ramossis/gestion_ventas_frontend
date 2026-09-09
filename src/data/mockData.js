@@ -1,0 +1,1 @@
+export const user = [{ id: 1, email: 'admin@admin.com', password: 'admin', role: 'ADMIN' }]
