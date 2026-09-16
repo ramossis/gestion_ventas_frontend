@@ -17,7 +17,17 @@ const router = createRouter({
         },
       ],
     },
-    { path: '/', component: ClienteLayout },
+    {
+      path: '/',
+      component: ClienteLayout,
+      children: [
+        {
+          path: 'catalogo',
+          name: 'Catalogo',
+          component: () => import('@/views/clientes/catalogoView.vue'),
+        },
+      ],
+    },
     { path: '/login', component: LoginView },
   ],
 })
