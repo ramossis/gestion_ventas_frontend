@@ -12,7 +12,7 @@
         <h2 class="card-title">{{ productos.name }}</h2>
         <p>ID:{{ productos.id }} Codigo Barra : {{ productos.codigo_b }}</p>
         <div class="card-actions">
-          <button class="btn btn-primary">Buy Now</button>
+          <button class="btn btn-primary" @click="emit('send-product', productos)">Comprar</button>
         </div>
       </div>
     </div>
@@ -26,6 +26,8 @@ const props = defineProps({
     require: true,
   },
 })
+
+const emit = defineEmits(['send-product'])
 </script>
 
 <style lang="scss" scoped></style>
